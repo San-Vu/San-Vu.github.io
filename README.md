@@ -17,9 +17,54 @@
 
 ## Projects
 
+### Antennah Tracker PCB
+[Link](https://github.com/San-Vu/antenna-tracker/tree/main/PCB)
+
+- created the Schematic and completed layout for a custom STM32-based PCB for an ArduPilot-based
+antenna-tracker firmware
+- Integrated telemetry radios, converted PWM signals to stepper input, power management circuitry,
+voltage and current protections.
+- Developed Ardupilot firmware allowing for port onto to custom controller board using ChibiOS
+
+
+### Language/Character identification
+- Designed and trained a custom model using PyTorch to identify the language of the extracted text. The
+model was based on RNN with GRU layers, capable of distinguishing between multiple, common
+languages
+- Implemented and trained a Convolutional Recurrent Neural Network (CRNN) model to parse trough
+images and extract text data.
+- tested multiple neural network frameworks resulting in ascii character detections accuracy of 98% and
+
+
+
+### Convolution optimization
+- Optimized matrix convolution in C via data, process, thread level parallelism.
+- Offered 9.3x convolution speedup via Intel SIMD m256* intrinsics, OpenMP 4-thread parallelism, and L1
+caching
+- Used OpenMPI manager-worker framework to parallelize convolution across 4 CPUS, and increase
+efficiency 10.4x.
+
+
+### RISC-V 2-Stage Pipeline CPU
+- Implemented digital circuits for control logic, RISC-V instruction formats, custom tests, and end to end 2-stage RISC-V CPU.
+
+
 ### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+- Built a self-balancing robot car capable of maintaining equilibrium and navigating through diverse
+environments.
+- Utilized singular value decomposition in a principal component analysis classifier to precisely identify
+and understand a variety of voice commands.
+- Designed, constructed, and thoroughly tested a custom band-pass filter to isolate the audible
+frequency range within the human hearing spectrum.
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+
+
+
+### NGordnet
+- Built a Java web server which charted the frequency of sets of words across different time periods
+- Parsed 100,000s lines of data via times series analysis to encode word popularity search algorithm.
+- Used Spark endpoints to handle word popularity requests and parse json response data into frequency
+graph.
+- Developed Java scripts to test word frequency analysis for single, multiple words, and word popularity
+across time.
