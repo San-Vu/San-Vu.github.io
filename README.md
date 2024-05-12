@@ -3,6 +3,13 @@
 ## Education
 
 
+## University of California, Berkeley Expected Graduation: 2025
+### Bachelors in Electrical Engineering and Computer Science (EECS) GPA: 3.5/4.0
+- Relevant Coursework: Multivariable Calculus, Data Structures, Computer Architecture, Discrete Math,
+Probability, Linear Algebra, Differential Equations, Circuit design, Systems and Signals, AI, feedback
+control, SMD soldering, oscilloscope, and multimeter usage
+
+
 ## Experience
 
 **UAVS@Berkeley (_September 2023 - Present_)**
