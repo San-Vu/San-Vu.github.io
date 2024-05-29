@@ -57,7 +57,7 @@ efficiency 10.4x.
 - Implemented digital circuits for control logic, RISC-V instruction formats, custom tests, and end to end 2-stage RISC-V CPU.
 
 
-### Data-Driven EEG Band Discovery with Decision Trees
+### Voice-controlled car
 - Built a self-balancing robot car capable of maintaining equilibrium and navigating through diverse
 environments.
 - Utilized singular value decomposition in a principal component analysis classifier to precisely identify
