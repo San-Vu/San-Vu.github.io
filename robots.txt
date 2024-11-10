@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://https://san-vu.github.io//sitemap.xml
+Sitemap: https://San-Vu.github.io/sitemap.xml
